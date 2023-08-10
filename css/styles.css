@@ -27,6 +27,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
   width: 1440px;
+  margin-inline: auto;
 }
 p,
 ul,
@@ -43,7 +44,7 @@ h6 {
 
 /* selectors */
 .conteiner {
-  width: 1158x;
+  width: 1158px;
   margin-inline: auto;
   padding: 15px;
 }
@@ -117,6 +118,7 @@ h6 {
 .box-section-four {
   box-shadow: 0 1px 6px 0 #2e2f4214, 0 1px 1px 0 #2e2f4229,
     0 2px 1px 0 #2e2f4214;
+  display: block;
 }
 .box-section-four:last-child {
   border-radius: 4px;
@@ -133,6 +135,15 @@ h6 {
 
 .button-list {
   padding-bottom: 57px;
+}
+.section-company-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section-company-list {
+  border-radius: 4px;
+  border: 1px solid var(--light-slate-color);
+  padding: 16px 32px 16px 32px;
 }
 /* header */
 /* logo */
@@ -211,11 +222,49 @@ h6 {
   color: var(--navy-blue-color);
   margin-bottom: 8px;
 }
+.page-part-two-box {
+  background-color: var(--cloud-color);
+  border-radius: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  padding-top: 8px;
+}
 .page-part-four {
   background-color: var(--cloud-color);
 }
 .page-part-four-figure {
   background-color: var(--white-color);
+}
+.page-part-four-icons {
+  padding-top: 8px;
+}
+.box-section-four-text {
+  padding: 32px 16px 32px 16px;
+}
+.icons-list {
+  padding: 12px;
+  border-radius: 50%;
+  border-color: var(--iris-color);
+  background-color: var(--iris-color);
+}
+
+.icons-list-footer {
+  padding: 8px 8px 8px 8px;
+  border-radius: 50%;
+  border-color: var(--iris-color);
+  background-color: var(--iris-color);
+}
+.icons-list-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-list:first-child {
+  display: flex;
+  justify-content: center;
 }
 .push {
   color: var(--white-color);
@@ -312,7 +361,22 @@ h6 {
 .footer-box {
   padding-top: 85px;
   padding-bottom: 85px;
-  padding-left: 141px;
 }
+.footer-social-media {
+  padding-top: 16px;
+}
+.icons-list-flex-footer {
+  display: flex;
+  gap: 16px;
+}
+.footer-flex {
+  display: flex;
+  gap: 120px;
+}
+.footer-social-media-box {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
 /*end footer */
 /* end selectors */
