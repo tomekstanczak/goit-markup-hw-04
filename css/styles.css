@@ -142,17 +142,17 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
-.section-company-list {
-  border-radius: 4px;
-  border: 1px solid var(--light-slate-color);
-  padding: 16px 32px 16px 32px;
-}
+
 .company-icons {
   fill: var(--light-slate-color);
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--light-slate-color);
 }
-
-.section-company-list:hover,
-.section-company-list:focus,
+.company-icons:first-child {
+  padding: 12px 32px 12px 32px;
+}
 .company-icons:hover,
 .company-icons:focus {
   border-color: var(--ocean-color);
